@@ -9,7 +9,7 @@ public class IntSetBST {
 	private int maxval; // maximum value of element
 	private TreeSet<Integer> bst = null;
 	
-	IntSetBST(int maxelems, int maxval) {
+	public IntSetBST(int maxelems, int maxval) {
 		this.maxelems = maxelems;
 		this.maxval = maxval;
 		this.bst = new TreeSet<Integer>();
