@@ -1,4 +1,4 @@
-# 오픈소스SW프로젝트 5조
+﻿# 오픈소스SW프로젝트 5조
 
 ## HW2 : SET Implementation
 
@@ -7,25 +7,25 @@
  * maxelem = maxval/100, maxval/50, maxval/25
 
  1. maxval = 10^6 && maxelem = maxval/100
- + initialize :
- + insert :
- + report :
- + total :
- + space :
+ + initialize : 1ms
+ + insert : 40ms
+ + report : 0ms
+ + total : 43ms
+ + space : 40000bytes
 
 2. maxval = 10^6 && maxelem = maxval/50
- + initialize :
- + insert :
- + report :
- + total :
- + space :
+ + initialize : 1ms
+ + insert : 93ms
+ + report : 0ms
+ + total : 97ms
+ + space : 80000bytes
 
 3. maxval = 10^6 && maxelem = maxval/25
- + initialize :
- + insert :
- + report :
- + total :
- + space :
+ + initialize : 0ms
+ + insert : 324ms
+ + report : 1ms
+ + total : 328ms
+ + space : 160000bytes
 
 4. maxval = 10^8 && maxelem = maxval/100
  + initialize :

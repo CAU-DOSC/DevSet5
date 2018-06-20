@@ -12,8 +12,8 @@ class IntSetArrTest {
 
 	@Test
 	void test() {
-		int maxval = (int) Math.pow(10, 6);
-		int m = maxval/25;
+		int maxval = (int) Math.pow(10, 8);
+		int m = maxval/100;
 		long oldtime, oldtimeTotal;
 		int[] v = new int[m];
 		
