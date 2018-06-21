@@ -13,13 +13,17 @@ public class IntSetArr {
 	public void insert(int element) {
 		int p = findPlace(element);
 		
+		if(p == -1) {
+			return;
+		}
+		
 		for (int i = p, j = 0; i < size; ++i, ++j) {
 			arr[size - j] = arr[size - j - 1];
 		}
 		
 		arr[p] = element;
-		System.out.print("Insert "+element+": ");
-		print();
+		//System.out.print("Insert "+element+": ");
+		//print();
 		++size;
 	}
 	
@@ -37,8 +41,13 @@ public class IntSetArr {
 		int i = 0;
 		
 		for (i = 0; i < size; ++i) {
-			if (arr[i] > element)
+			if (arr[i] > element) {
+				if (i - 1 >= 0) {
+					if (arr[i - 1] == element)
+						return -1;
+				}
 				break;
+			}
 		}
 		
 		return i;
@@ -50,4 +59,5 @@ public class IntSetArr {
 		}
 		System.out.println();
 	}
+	
 }
