@@ -27,27 +27,6 @@
  + total : 328ms
  + space : 160000bytes
 
-4. maxval = 10^8 && maxelem = maxval/100
- + initialize :
- + insert :
- + report :
- + total :
- + space :
-
-5. maxval = 10^8 && maxelem = maxval/50
- + initialize :
- + insert :
- + report :
- + total :
- + space :
-
-6. maxval = 10^8 && maxelem = maxval/25
- + initialize :
- + insert :
- + report :
- + total :
- + space :
-
 ## Simple lists
  * maxval = 10^6, 10^8
  * maxelem = maxval/100, maxval/50, maxval/25
@@ -72,27 +51,6 @@
  + report :0.001s
  + total :61.31s
  + space :33.17MB
-
-4. maxval = 10^8 && maxelem = maxval/100
- + initialize :
- + insert :
- + report :
- + total :
- + space :
-
-5. maxval = 10^8 && maxelem = maxval/50
- + initialize :
- + insert :
- + report :
- + total :
- + space :
-
-6. maxval = 10^8 && maxelem = maxval/25
- + initialize :
- + insert :
- + report :
- + total :
- + space :
 
 ## Binary Search tree
  * maxval = 10^6, 10^8
@@ -145,46 +103,46 @@
  * maxelem = maxval/100, maxval/50, maxval/25
 
  1. maxval = 10^6 && maxelem = maxval/100
- + initialize :
- + insert :
- + report :
- + total :
- + space :
+ + initialize : 0.013
+ + insert : 0.008
+ + report : 0.01
+ + total : 0.034
+ + space : 24
 
 2. maxval = 10^6 && maxelem = maxval/50
- + initialize :
- + insert :
- + report :
- + total :
- + space :
+ + initialize : 0.015
+ + insert : 0.004
+ + report : 0.013
+ + total : 0.033
+ + space : 24
 
 3. maxval = 10^6 && maxelem = maxval/25
- + initialize :
- + insert :
- + report :
- + total :
- + space :
+ + initialize : 0.027
+ + insert : 0.008
+ + report : 0.0166
+ + total : 0.05
+ + space : 24
 
 4. maxval = 10^8 && maxelem = maxval/100
- + initialize :
- + insert :
- + report :
- + total :
- + space :
+ + initialize : 0.22
+ + insert : 0.78
+ + report : 0.15
+ + total : 0.48
+ + space : 88
 
 5. maxval = 10^8 && maxelem = maxval/50
- + initialize :
- + insert :
- + report :
- + total :
- + space :
+ + initialize : 0.25
+ + insert : 0.2
+ + report : 0.2
+ + total : 0.65
+ + space : 104
 
 6. maxval = 10^8 && maxelem = maxval/25
- + initialize :
- + insert :
- + report :
- + total :
- + space :
+ + initialize : 0.22
+ + insert : 0.3
+ + report : 0.22
+ + total : 0.74
+ + space : 136
 
 ## Bins
 * maxval = 10^6, 10^8
